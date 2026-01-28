@@ -5,6 +5,7 @@ import { defineConfig as defineVitestConfig } from "vitest/config"
 // https://vite.dev/config/
 export default defineVitestConfig({
   plugins: [react()],
+  base: "TestParamEditor",
   test: {
     globals: true,
     environment: "jsdom",
